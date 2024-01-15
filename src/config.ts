@@ -5,4 +5,3 @@ export const SITE_TITLE = "Portafolio Rafael Morales";
 export const SITE_DESCRIPTION =
   "Este es el portafolio y sitio web personal de Rafael Morales Venegas.";
 export const GENERATE_SLUG_FROM_TITLE = true;
-
