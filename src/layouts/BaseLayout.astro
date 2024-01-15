@@ -6,11 +6,19 @@ import SideBar from "../components/SideBar.astro";
 
 import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 
-const { image, title = SITE_TITLE, description = SITE_DESCRIPTION, includeSidebar = true, sideBarActiveItemID, ogType } = Astro.props;
+const { 
+  image,
+  title = SITE_TITLE,
+  description = SITE_DESCRIPTION, 
+  includeSidebar = true,
+  sideBarActiveItemID, 
+  ogType
+} = Astro.props;
+
 ---
 
 <!DOCTYPE html>
-<html lang="en" data-theme="lofi">
+<html lang="es" data-theme="lofi">
   <head>
     <BaseHead title={title} description={description} image={image}, ogType={ogType} />
   </head>
